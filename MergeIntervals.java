@@ -4,7 +4,7 @@ public class MergeIntervals{
 		int[][] arr={{1,3},{2,6},{8,10},{15,18}};
 		List<int[]> ans=new ArrayList<>();
 		int cols=0;
-		Arrays.sort(arr,(a,b)->Integer.compare(a[cols],b[cols]));
+		Arrays.sort(arr,(a,b)->Integer.compare(a[cols],b[cols]));//to sort file using first value of array
 		int[] prev=arr[0];
 		for(int i=1;i<arr.length;i++){
 			int[] curr=arr[i];
