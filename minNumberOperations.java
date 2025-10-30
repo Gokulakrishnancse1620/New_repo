@@ -3,8 +3,8 @@ public class minNumberOperations{
 		int current=arr[0];//initial value
 		int n=arr.length;
 		for(int i=1;i<n;i++){//iterate from 1 to n
-			if(arr[i]>arr[i-1]){
-				current+=arr[i]-arr[i-1];
+			if(arr[i]>arr[i-1]){//check current element is greater than previous element
+				current+=arr[i]-arr[i-1];//add difference between current element and previous element to result
 			}
 
 		}
